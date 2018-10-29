@@ -27,6 +27,7 @@
       <class name="com.torenzo.qa.testcases.TableStructureOrderTest">
         <methods>
           <include name="launch"/>
+          <include name="orderWithTable"/>
           <include name="permission"/>
           <include name="tableStrucuterVerify"/>
           <include name="login"/>
