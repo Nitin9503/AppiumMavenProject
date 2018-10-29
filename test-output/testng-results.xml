@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Before executing suite at the begin Default suite]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : Loginapp.launch]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : Loginapp.launch]]>
+    </line>
+    <line>
+      <![CDATA[Before executing test method once onlyDefault test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : Loginapp.login]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : Loginapp.login]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : Loginapp.permission]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : Loginapp.permission]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ReservationTest.verifyTableViewIcon]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ReservationTest.verifyTableViewIcon]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ReservationTest.verifyReservation]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ReservationTest.verifyReservation]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ReservationTest.reservationTransfer]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ReservationTest.reservationTransfer]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="874656" started-at="2018-10-24T09:58:55Z" finished-at="2018-10-24T10:13:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="874656" started-at="2018-10-24T09:58:55Z" finished-at="2018-10-24T10:13:29Z">
+      <class name="com.torenzo.qa.testcases.ReservationTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.torenzo.qa.testcases.ReservationTest@46238e3f]" name="launch" is-config="true" duration-ms="10021" started-at="2018-10-24T09:58:45Z" finished-at="2018-10-24T09:58:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : Loginapp.launch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.torenzo.qa.testcases.ReservationTest@46238e3f]" name="login" is-config="true" duration-ms="35161" started-at="2018-10-24T09:58:55Z" finished-at="2018-10-24T09:59:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : Loginapp.login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="permission()[pri:0, instance:com.torenzo.qa.testcases.ReservationTest@46238e3f]" name="permission" is-config="true" duration-ms="5947" started-at="2018-10-24T09:59:30Z" finished-at="2018-10-24T09:59:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : Loginapp.permission]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- permission -->
+        <test-method status="PASS" signature="verifyTableViewIcon()[pri:24, instance:com.torenzo.qa.testcases.ReservationTest@46238e3f]" name="verifyTableViewIcon" duration-ms="43516" started-at="2018-10-24T09:59:36Z" finished-at="2018-10-24T10:00:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ReservationTest.verifyTableViewIcon]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ReservationTest.verifyTableViewIcon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTableViewIcon -->
+        <test-method status="PASS" signature="verifyReservation()[pri:25, instance:com.torenzo.qa.testcases.ReservationTest@46238e3f]" name="verifyReservation" duration-ms="381384" started-at="2018-10-24T10:00:22Z" finished-at="2018-10-24T10:06:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ReservationTest.verifyReservation]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ReservationTest.verifyReservation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyReservation -->
+        <test-method status="PASS" signature="reservationTransfer()[pri:26, instance:com.torenzo.qa.testcases.ReservationTest@46238e3f]" name="reservationTransfer" duration-ms="400754" started-at="2018-10-24T10:06:47Z" finished-at="2018-10-24T10:13:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ReservationTest.reservationTransfer]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ReservationTest.reservationTransfer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reservationTransfer -->
+      </class> <!-- com.torenzo.qa.testcases.ReservationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
